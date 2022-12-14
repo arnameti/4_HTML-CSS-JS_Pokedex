@@ -1,0 +1,8 @@
+@use '../util' as u;
+
+.pokedex {
+  background-color: limegreen;
+  min-height: 100vh;
+  width: min(100% - u.rem(30), u.rem(860));
+  margin-inline: auto;
+}
