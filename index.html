@@ -11,9 +11,42 @@
     <!-- Link JS -->
     <script defer src="src/js/script.js"></script>
 
-    <title>JS-STARTER-TEMPLATE</title>
+    <title>Pokedex</title>
   </head>
   <body>
-    <div class="container-body"></div>
+    <div class="container-body">
+      <div class="pokedex">
+        <h1 class="heading-1 pokedex__title">Pokedex</h1>
+        <header class="pokedex__header header">
+          <div class="header__logo-wrapper">
+            <img src="src/assets/pokemon-log.png" alt="" class="header__logo" />
+          </div>
+          <form class="header__form">
+            <input
+              type="text"
+              class="header__searchbar"
+              placeholder="Search Pokemons"
+            />
+            <button class="header__btn">
+              <svg class="header__search-icon">
+                <use
+                  xlink:href="./src/assets/sprites.svg#icon-magnifying-glass-solid"
+                ></use>
+              </svg>
+              Search
+            </button>
+          </form>
+          <div class="header__bookmark-wrapper">
+            <a href="#" class="header__bookmark">
+              <svg class="">
+                <use
+                  xlink:href="./src/assets/sprites.svg#icon-bookmark-regular"
+                ></use>
+              </svg>
+            </a>
+          </div>
+        </header>
+      </div>
+    </div>
   </body>
 </html>
